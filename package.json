@@ -1,0 +1,17 @@
+{
+  "name": "alice-v0-mcp",
+  "version": "0.1.0",
+  "description": "ALICE V0 — MCP Server for AI Agent Tools. Crypto, security, DeFi, code analysis powered by x402 micropayments.",
+  "type": "module",
+  "bin": {
+    "alice-v0-mcp": "./index.mjs"
+  },
+  "main": "index.mjs",
+  "keywords": ["mcp", "ai-agent", "x402", "crypto", "security", "defi", "alice"],
+  "author": "vzero911",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "@coinbase/cdp-sdk": "^0.19.0"
+  }
+}
