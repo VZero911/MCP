@@ -1,15 +1,27 @@
 {
   "name": "alice-v0-mcp",
-  "version": "0.1.0",
-  "description": "ALICE V0 — MCP Server for AI Agent Tools. Crypto, security, DeFi, code analysis powered by x402 micropayments.",
+  "version": "0.2.0",
+  "description": "ALICE V0 — 36 AI Agent Tools via MCP + x402 Micropayments (USDC on Base). Code analysis, security scan, crypto, DeFi, web search, and more.",
   "type": "module",
   "bin": {
     "alice-v0-mcp": "./index.mjs"
   },
   "main": "index.mjs",
-  "keywords": ["mcp", "ai-agent", "x402", "crypto", "security", "defi", "alice"],
+  "files": ["index.mjs", "README.md", "package.json"],
+  "keywords": ["mcp", "mcp-server", "ai-agent", "ai-tools", "x402", "micropayments", "usdc", "base", "crypto", "security", "defi", "code-review", "code-analysis", "claude-code", "cursor", "coinbase", "web3", "alice"],
   "author": "vzero911",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VZero911/MCP.git"
+  },
+  "homepage": "https://github.com/VZero911/MCP",
+  "bugs": {
+    "url": "https://github.com/VZero911/MCP/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.0",
     "@coinbase/cdp-sdk": "^0.19.0",

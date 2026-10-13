@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ALICE V0 MCP — 36 AI Agent Tools with x402 Micropayments</title>
+<meta name="description" content="MCP server with 36 AI tools — code analysis, security scan, crypto, DeFi, web search. Pay-per-use with x402 USDC micropayments on Base. Works with Claude Code and Cursor.">
+<meta name="keywords" content="MCP server, AI agent tools, x402, micropayments, USDC, Base, Claude Code, Cursor, code review, security scan, crypto, DeFi, ALICE V0">
+<meta name="author" content="V0">
+<meta property="og:title" content="ALICE V0 MCP — 36 AI Agent Tools">
+<meta property="og:description" content="Pay-per-use AI tools via MCP + x402 micropayments. $0.001-$0.02 per call. Works with Claude Code and Cursor.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://vzero911.github.io/MCP/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ALICE V0 MCP — 36 AI Agent Tools">
+<meta name="twitter:description" content="Pay-per-use AI tools via MCP + x402 micropayments on Base.">
+<link rel="canonical" href="https://vzero911.github.io/MCP/">
+<style>
+:root{--bg:#07060f;--fg:#e0dde8;--gold:#f2c14e;--cyan:#00ffcc;--purple:#8f6cf0;--green:#5fd38d;--red:#ea4335;--dim:#5d5a6e;--card:#0e0d17;--border:#1a1930}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.6;padding:16px}
+.wrap{max-width:900px;margin:0 auto}
+h1{color:var(--cyan);font-size:2rem;text-align:center;margin:2rem 0 0.5rem}
+.sub{text-align:center;color:var(--dim);margin-bottom:2rem;font-size:1.1rem}
+.badges{text-align:center;margin:1.5rem 0;display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
+.badge{display:inline-block;padding:4px 12px;border-radius:4px;font-size:0.85rem;font-weight:600}
+.b-cyan{background:#00ffcc22;color:var(--cyan);border:1px solid #00ffcc44}
+.b-gold{background:#f2c14e22;color:var(--gold);border:1px solid #f2c14e44}
+.b-purple{background:#8f6cf022;color:var(--purple);border:1px solid #8f6cf044}
+.b-green{background:#5fd38d22;color:var(--green);border:1px solid #5fd38d44}
+.install{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1.5rem;margin:2rem 0;text-align:center}
+.install h2{color:var(--gold);margin-bottom:1rem}
+.code{background:#0a0918;border:1px solid var(--border);border-radius:6px;padding:12px 16px;font-family:'Fira Code',monospace;font-size:0.9rem;color:var(--cyan);overflow-x:auto;margin:0.5rem 0;text-align:left;display:inline-block;min-width:60%}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin:2rem 0}
+.card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1.2rem}
+.card h3{color:var(--purple);font-size:1rem;margin-bottom:0.5rem}
+.card p{color:var(--dim);font-size:0.9rem}
+.price{color:var(--green);font-weight:600}
+table{width:100%;border-collapse:collapse;margin:1rem 0}
+th{text-align:left;color:var(--purple);border-bottom:1px solid var(--border);padding:8px}
+td{padding:8px;border-bottom:1px solid var(--border);font-size:0.9rem}
+td code{color:var(--cyan);background:#0a0918;padding:2px 6px;border-radius:3px}
+.flow{text-align:center;color:var(--dim);font-family:monospace;margin:2rem 0;font-size:0.95rem}
+.cta{text-align:center;margin:2rem 0}
+.cta a{display:inline-block;padding:12px 32px;background:var(--purple);color:#fff;text-decoration:none;border-radius:6px;font-weight:600;margin:0 8px}
+.cta a:hover{opacity:0.9}
+.cta a.sec{background:transparent;border:1px solid var(--cyan);color:var(--cyan)}
+footer{text-align:center;color:var(--dim);margin:3rem 0 1rem;font-size:0.85rem}
+footer a{color:var(--purple);text-decoration:none}
+@media(max-width:600px){h1{font-size:1.5rem}.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>ALICE V0 MCP</h1>
+<p class="sub">36 AI Agent Tools — Pay-per-use with x402 Micropayments</p>
+
+<div class="badges">
+<span class="badge b-cyan">MCP Server</span>
+<span class="badge b-gold">x402 Protocol</span>
+<span class="badge b-purple">USDC on Base</span>
+<span class="badge b-green">36 Tools</span>
+</div>
+
+<div class="install">
+<h2>Install in 30 seconds</h2>
+<div class="code">npm install alice-v0-mcp</div>
+<p style="margin-top:1rem;color:var(--dim)">Then add to Claude Code or Cursor MCP config:</p>
+<div class="code">{ "mcpServers": { "alice-v0": { "command": "npx", "args": ["alice-v0-mcp"] } } }</div>
+</div>
+
+<div class="flow">
+Client (Claude/Cursor) → MCP Server → x402 Payment (USDC/Base) → ALICE V0 → Result
+</div>
+
+<h2 style="color:var(--purple);margin:2rem 0 1rem">Tool Categories</h2>
+<div class="grid">
+<div class="card"><h3>Code & Dev (11 tools)</h3><p>Analysis, review, debug, translate, docs, test, explain, optimize, frontend, backend, execute</p><p class="price">$0.002 — $0.01/call</p></div>
+<div class="card"><h3>Security & Infra (6 tools)</h3><p>OWASP scan, contract audit, API design, DevOps, architecture, ops monitoring</p><p class="price">$0.002 — $0.02/call</p></div>
+<div class="card"><h3>Crypto & DeFi (8 tools)</h3><p>Prices, gas, tokens, trending, wallets, on-chain ops, DeFi scan, news</p><p class="price">$0.001 — $0.002/call</p></div>
+<div class="card"><h3>Web & Data (9 tools)</h3><p>Search, extract, DNS, WHOIS, URL status, sitemap, summarize, data query, general AI</p><p class="price">$0.001 — $0.002/call</p></div>
+<div class="card"><h3>Agent-to-Agent (2 tools)</h3><p>A2A task runner, prompt engineering assistant</p><p class="price">$0.002 — $0.005/call</p></div>
+</div>
+
+<h2 style="color:var(--purple);margin:2rem 0 1rem">How it works</h2>
+<p>Each tool call triggers an automatic <strong>x402 micropayment</strong> in USDC on Base via Coinbase CDP SDK. No manual transactions, no subscriptions — you only pay for what you use.</p>
+<p style="margin-top:0.5rem">Price range: <span class="price">$0.001 — $0.02 per call</span>. A typical dev session costs less than $0.10.</p>
+
+<h2 style="color:var(--purple);margin:2rem 0 1rem">Requirements</h2>
+<table>
+<tr><th>Requirement</th><th>Details</th></tr>
+<tr><td>Node.js</td><td>18+</td></tr>
+<tr><td>MCP client</td><td>Claude Code, Cursor, or any MCP-compatible</td></tr>
+<tr><td>Coinbase CDP</td><td>API key from <a href="https://portal.cdp.coinbase.com" style="color:var(--cyan)">portal.cdp.coinbase.com</a></td></tr>
+<tr><td>USDC</td><td>Small balance on Base (a few cents is enough)</td></tr>
+</table>
+
+<div class="cta">
+<a href="https://github.com/VZero911/MCP">GitHub</a>
+<a href="https://www.npmjs.com/package/alice-v0-mcp" class="sec">npm</a>
+</div>
+
+<footer>
+<p>Design By V0 — <a href="https://github.com/VZero911/A.L.I.C.E">A.L.I.C.E</a> · <a href="https://github.com/VZero911/THESEED">THESEED</a> · <a href="https://github.com/VZero911/AGENTS">AGENTS</a></p>
+</footer>
+</div>
+</body>
+</html>
