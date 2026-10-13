@@ -1,0 +1,36 @@
+{
+  "name": "alice-v0",
+  "display_name": "ALICE V0 — 36 AI Agent Tools",
+  "description": "Pay-per-use AI tools via MCP + x402 micropayments (USDC on Base). Code analysis, security scan, crypto, DeFi, web search, and more. Works with Claude Code and Cursor.",
+  "version": "0.2.0",
+  "author": "vzero911",
+  "license": "MIT",
+  "repository": "https://github.com/VZero911/MCP",
+  "homepage": "https://vzero911.github.io/MCP/",
+  "npm": "alice-v0-mcp",
+  "install": {
+    "npm": "npm install alice-v0-mcp",
+    "npx": "npx alice-v0-mcp"
+  },
+  "config": {
+    "claude_code": {
+      "mcpServers": {
+        "alice-v0": {
+          "command": "npx",
+          "args": ["alice-v0-mcp"]
+        }
+      }
+    }
+  },
+  "categories": ["ai", "code", "security", "crypto", "web", "defi"],
+  "tags": ["mcp", "mcp-server", "ai-agent", "x402", "micropayments", "usdc", "base", "claude-code", "cursor"],
+  "tools_count": 36,
+  "pricing": "pay-per-use",
+  "price_range": "$0.001 — $0.02 per call",
+  "payment": {
+    "protocol": "x402",
+    "currency": "USDC",
+    "network": "Base (eip155:8453)",
+    "facilitator": "Coinbase CDP SDK"
+  }
+}
