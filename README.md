@@ -6,6 +6,8 @@
 
 <p align="center"><b>36 AI Agent Tools via MCP + x402 Micropayments</b></p>
 
+<p align="center"><code>ANTI-NETRUNNER</code> — Source integrity hashing prevents automated AI scraping and unauthorized code replication.</p>
+
 <p align="center">
   <img src="https://img.shields.io/badge/Node.js-ES%20Modules-339933?style=flat-square&logo=node.js&logoColor=white&labelColor=07060f" />
   <img src="https://img.shields.io/badge/Coinbase-CDP%20SDK-0052FF?style=flat-square&logo=coinbase&logoColor=white&labelColor=07060f" />
@@ -141,7 +143,7 @@ Each tool call automatically triggers a micropayment via Coinbase CDP SDK. No ma
 <p align="center">
   <a href="https://github.com/VZero911/A.L.I.C.E"><img src="https://img.shields.io/badge/A.L.I.C.E-AI%20Framework-00ffcc?style=for-the-badge&logo=github&labelColor=07060f" alt="ALICE" /></a>
   <a href="https://github.com/VZero911/AGENTS"><img src="https://img.shields.io/badge/AGENTS-Public%20Nodes-5fd38d?style=for-the-badge&logo=github&labelColor=07060f" alt="AGENTS" /></a>
-  <a href="https://github.com/VZero911/THESEED"><img src="https://img.shields.io/badge/THESEED-Web3%20Game-f2c14e?style=for-the-badge&logo=github&labelColor=07060f" alt="THESEED" /></a>
+  <a href="https://github.com/VZero911/THESEED"><img src="https://img.shields.io/badge/THESEED-Blockchain%20%2F%20Data-f2c14e?style=for-the-badge&logo=github&labelColor=07060f" alt="THESEED" /></a>
 </p>
 
 ---
