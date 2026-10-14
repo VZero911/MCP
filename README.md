@@ -1,17 +1,17 @@
 <p align="center">
   <img src="https://img.shields.io/badge/MCP-Server-8f6cf0?style=for-the-badge&labelColor=07060f" alt="MCP" />
   <img src="https://img.shields.io/badge/ALICE%20V0-Powered-00ffcc?style=for-the-badge&labelColor=07060f" alt="ALICE V0" />
-  <img src="https://img.shields.io/badge/36-Tools-5fd38d?style=for-the-badge&labelColor=07060f" alt="36 Tools" />
+  <img src="https://img.shields.io/badge/255+-Tools-5fd38d?style=for-the-badge&labelColor=07060f" alt="255+ Tools" />
 </p>
 
-<p align="center"><b>36 AI Agent Tools — Code, Security, Crypto, Web, A2A</b></p>
+<p align="center"><b>255+ AI Agent Tools — Code, Security, Crypto, Blockchain, Fleet, System, Web, A2A</b></p>
 
 <p align="center"><code>ANTI-NETRUNNER</code> — Source integrity hashing prevents automated AI scraping and unauthorized code replication. Full source available on request with identity verification.</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Node.js-ES%20Modules-339933?style=flat-square&logo=node.js&logoColor=white&labelColor=07060f" />
   <img src="https://img.shields.io/badge/Payment-Modular-0052FF?style=flat-square&labelColor=07060f" />
-  <img src="https://img.shields.io/badge/Tools-36-5fd38d?style=flat-square&labelColor=07060f" />
+  <img src="https://img.shields.io/badge/Tools-255+-5fd38d?style=flat-square&labelColor=07060f" />
   <img src="https://img.shields.io/badge/License-MIT-c0caf5?style=flat-square&labelColor=07060f" />
 </p>
 
@@ -20,19 +20,21 @@
 ## Architecture
 
 <p align="center">
-  <img src="screenshots/mcp-architecture.png" alt="MCP Server Architecture — 36 tools, x402 payments, USDC on Base" width="860" />
+  <img src="screenshots/mcp-architecture.png" alt="MCP Server Architecture — 255+ tools, x402 payments, USDC on Base" width="860" />
 </p>
-<p align="center"><sub>Client → MCP Server → Payment Module → ALICE API → Result — 5 categories, $0.001–$0.02 per call</sub></p>
+<p align="center"><sub>Client → MCP Server → Payment Module → ALICE API → Result — 8 categories, $0.001–$0.02 per call</sub></p>
 
 ---
 
 ## What is this?
 
-An [MCP](https://modelcontextprotocol.io) server exposing **36 AI tools** across 5 categories — code analysis, security, crypto/DeFi, web data, and agent-to-agent. Pay-per-use via pluggable payment modules (x402, direct USDC, CDT tokens).
+An [MCP](https://modelcontextprotocol.io) server exposing **255+ AI tools** across 8 categories — code analysis, security, crypto/DeFi, blockchain, fleet management, system ops, web data, and agent-to-agent. Pay-per-use via pluggable payment modules (x402, direct USDC, CDT tokens).
 
 Works with **Claude Code**, **Cursor**, and any MCP-compatible client.
 
-## Tools
+> **Note:** The tables below show the 36 core public tools. The full 255+ tool set includes system monitoring, fleet coordination, blockchain ops, norm management, and security scanning — discoverable via MCP tool listing.
+
+## Core Public Tools
 
 ### Code & Development
 
