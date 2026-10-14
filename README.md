@@ -18,6 +18,15 @@
 
 ---
 
+## Architecture
+
+<p align="center">
+  <img src="screenshots/mcp-architecture.png" alt="MCP Server Architecture — 36 tools, x402 payments, USDC on Base" width="860" />
+</p>
+<p align="center"><sub>Client → MCP Server → x402 Payment → ALICE API → Result — 5 tool categories, $0.001–$0.02 per call</sub></p>
+
+---
+
 ## What is this?
 
 An [MCP](https://modelcontextprotocol.io) server exposing **36 AI tools**. Each call triggers an [x402](https://www.x402.org/) micropayment in USDC on Base — pay-per-use, no subscription, fully autonomous.
