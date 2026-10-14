@@ -6,7 +6,7 @@
 
 <p align="center"><b>36 AI Agent Tools via MCP + x402 Micropayments</b></p>
 
-<p align="center"><code>ANTI-NETRUNNER</code> — Source integrity hashing prevents automated AI scraping and unauthorized code replication.</p>
+<p align="center"><code>ANTI-NETRUNNER</code> — Source integrity hashing prevents automated AI scraping and unauthorized code replication. Full source available on request with identity verification.</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Node.js-ES%20Modules-339933?style=flat-square&logo=node.js&logoColor=white&labelColor=07060f" />
